@@ -13,7 +13,11 @@ A function is an operation that performs a pre-prescribed action when it is invo
 **3.** What are the `SOLID` principles?
 <!-- enter you answer in the space below -->
 ```
-Single Responsibility, 
+Single Responsibility: A function/class should only be responsible for one task/data-type.
+Open-closed: Open - A code should be able to accomodate new features/data without breaking or requiring many changes. Closed - New features shouldn't be added if they require refactoring a majority of the code.
+Liskov-substitution: My understanding is that this principle means that in a data hierarchy, each level can be substituted for one another.
+Interface segregation: "Clients" should not be forced to use interfaces/functions (?) that they do not need to use.
+Dependency Inversion: High-level modules/functions should not be dependent on lower level ones to function.
 ```
 **4.** Given this array: 
 ```js
@@ -60,7 +64,7 @@ The name of the piece is the ... indexer? You increase i by 1: i++
 **8.** What does the `DOM` acronym stand for? Which file is first accessed to render the `DOM`?
 <!-- enter you answer in the space below -->
 ```
-DOM stands for Document Object Model
+DOM stands for Document Object Model. The first file accessed is the index.html.
 ```
 
 **9.** What are the `9` ECMAScript types as defined by MDN?
