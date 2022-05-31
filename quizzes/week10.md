@@ -9,7 +9,7 @@ A namespace is a class that holds methods and variables that can be called acros
 **2.** What is the difference between a `class` and a `struct`?
 <!-- enter you answer in the space below -->
 ```
-
+Structs are like class-lyte. They can be used to build objects that behave like class objects.
 ```
 **3.** What is the method that returns an instance of a class, yet it has no return type?
 <!-- enter you answer in the space below -->
